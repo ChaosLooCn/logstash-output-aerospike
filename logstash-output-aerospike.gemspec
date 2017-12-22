@@ -1,12 +1,12 @@
 Gem::Specification.new do |s|
   s.name          = 'logstash-output-aerospike'
-  s.version       = '0.1.0'
+  s.version       = '0.3.11'
   s.licenses      = ['Apache License (2.0)']
-  s.summary       = 'TODO: Write a short summary, because Rubygems requires one.'
-  s.description   = 'TODO: Write a longer description or delete this line.'
-  s.homepage      = 'TODO: Put your plugin''s website or public repo URL here.'
-  s.authors       = ['']
-  s.email         = ''
+  s.summary       = 'Logstash-output-aerospike, un unofficial logstash output plugin, is used for sending events to ARESPIKE.'
+  s.description   = 'This plugin, logstash-output-aerospike, is not an official one, developed and maintained by ChaosLooCn on github. In order to use the plugin, you need a jarfile and put it in directory {logstash_home}/vendor/jruby/lib/. You can found the jarfile and it's source code at https://github.com/ChaosLooCn/logstash-output-aerospike-jar'
+  s.homepage      = 'https://github.com/ChaosLooCn/logstash-output-aerospike'
+  s.authors       = ['Tony Loo']
+  s.email         = 'tonyloo92@163.com'
   s.require_paths = ['lib']
 
   # Files
@@ -20,6 +20,4 @@ Gem::Specification.new do |s|
   # Gem dependencies
   s.add_runtime_dependency "logstash-core-plugin-api", "~> 2.0"
   s.add_runtime_dependency "logstash-codec-plain"
-  s.add_runtime_dependency "aerospike"
-  s.add_development_dependency "logstash-devutils"
 end
