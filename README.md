@@ -1,3 +1,10 @@
+This plugin, logstash-output-aerospike, is not an official one, developed and maintained by ChaosLooCn on github
+
+In order to use the plugin, you need a jarfile and put it in directory {logstash_home}/vendor/jruby/lib/.
+You can found the jarfile and it's source code at https://github.com/ChaosLooCn/logstash-output-aerospike-jar
+
+Contact me whenever you need help. Email: tonyloo92@163.com
+
 # Logstash Plugin
 
 This is a plugin for [Logstash](https://github.com/elastic/logstash).
@@ -85,10 +92,3 @@ It is more important to the community that you are able to contribute.
 
 For more information about contributing, see the [CONTRIBUTING](https://github.com/elastic/logstash/blob/master/CONTRIBUTING.md) file.
 
-
-This plugin, logstash-output-aerospike, is not an official one, developed and maintained by ChaosLooCn on github
-
-In order to use the plugin, you need a jarfile and put it in directory {logstash_home}/vendor/jruby/lib/.
-You can found the jarfile and it's source code at https://github.com/ChaosLooCn/logstash-output-aerospike-jar
-
-Contact me whenever you need help. Email: tonyloo92@163.com
